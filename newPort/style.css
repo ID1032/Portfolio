@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: hsl(55, 100%, 90%);
+}
+
+/* nav */
+nav{
+    background-color: rgb(134, 83, 1);
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.landing ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.landing ul a{
+    font-size: 40px;
+    padding: 0px 70px;
+    text-decoration: none;
+}
+.landing ul a:link{
+    color: antiquewhite;
+    font-family: monospace;
+}
+.landing ul a:hover{
+    background-color: hsl(37, 99%, 40%);
+    font-size: 42px;
+    border-radius: 10px;
+}
+.landing ul a:active{
+    color: white;
+}
+.landing ul a:visited{
+    color: antiquewhite;
+}
+
+/* home */
+#home{
+    width: 100%;
+    height: 80vh;
+    padding-top: 12%;
+}
+
+/* about me*/
+#about{
+    width: 100%;
+    height: 80vh;
+    padding-top: 80px;
+}
+#about img{
+    float:inline-start;
+    height: 300px;
+    width: 400px;
+    padding-left: 2%;
+    padding-right: 3%;
+    margin-top: 2%;
+}
+/* education */
+#education{
+    width: 100%;
+    height: 80vh;
+    padding-top: 80px;
+}
+#education ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#education ul li{
+    padding-top: 50px;
+}
+#imageicon{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+/* skill */
+#skill{
+    width: 100%;
+    height: 80vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#skill ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#skill ul li{
+    padding-top: 50px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(134, 83, 1);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.contacts ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.contacts ul a{
+    font-size: 30px;
+    padding: 1px 70px;
+    text-decoration: none;
+}
+.contacts ul a:link{
+    color: antiquewhite;
+    font-family: monospace;
+}
+.contacts ul a:hover{
+    background-color: hsl(37, 99%, 40%);
+    font-size: 35px;
+    border-radius: 10px;
+}
+.contacts ul a:visited{
+    color: antiquewhite;
+}
+/* other stype text */
+h1{
+    text-align: center;
+    font-family: monospace;
+    color: rgba(165, 42, 42, 0.751);
+    font-size: 60px;
+}
+h2{
+    color: rgb(134, 83, 1);
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+}
+h3{
+    font-size: 30px;
+    color: antiquewhite;
+    font-family: monospace;
+}
+h4{
+    padding-top: 2%;
+    font-family: monospace;
+    font-size: 35px;
+    color: hsl(0, 0%, 45%);
+    text-align: center;
+}
+p{
+    padding-top: 2%;
+    font-family: monospace;
+    font-size: 35px;
+    color: hsl(0, 0%, 45%);
+}

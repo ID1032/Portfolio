@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New my Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Landing -->
+    <nav class="landing">
+        <ul>
+            <li><a href="#home">Home</a>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skill">Skills</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <div id="home">
+        <h1>🎉🎉🎉Welcome to my website🎉🎉🎉</h1>
+        <br>
+        <h1>My student id: 66070501032</h1>
+        <br>
+        <h1 style="color: hsl(0, 59%, 30%);">This is a website created for submitting homework in cpe101.</h1>
+    </div>
+
+    <!-- About me-->
+    <div id="about">
+        <h2>About me</h2>
+        <img src="picture/my_photo.jpg" alt="my picture">
+        <p>Name: Prayfah</p>
+        <p>Surname: Poolmasin</p>
+        <p>Nickname: T'aime</p>
+    </div>
+
+    <!-- Education -->
+    <div id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <h4>Middle</h4>
+                <img src="picture/sjc_icon.png" id="imageicon">
+                <h4>SJC</h4>
+            </li>
+            <li>
+                <h4>High school</h4>
+                <img src="picture/sjc_icon.png" id="imageicon">
+                <h4>SJC</h4>
+            </li>
+            <li>
+                <h4>Present</h4>
+                <img src="picture/KMUTT_icon.png" id="imageicon">
+                <h4>KMUTT</h4>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Skill -->
+    <div id="skill">
+        <h2>Skills</h2>
+        <ul>
+            <li>
+                <img src="picture/sketchup.png" id="imageicon">
+                <h4>Sketch Up</h4>
+            </li>
+            <li>
+                <img src="picture/C.png" id="imageicon">
+                <h4>C programming</h4>
+            </li>
+            <li>
+                <img src="picture/python.png" id="imageicon">
+                <h4>Python programming</h4>
+            </li>
+        </ul>
+    </div>
+
+    <!-- footer -->
+    <footer class="contacts">
+        <ul>
+            <li><h3>My contacts:</h3></li>
+            <li>
+                <a href="https://line.me/ti/p/kj6RqUoYuc" 
+                target="_blank"
+                id="link_contact">
+                <img src="picture/iconLine.webp" height="25" weight="25">
+                line
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/photon_photo.t?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
+                target="_blank"
+                id="link_contact">
+                <img src="picture/iconinstargram.webp" height="25" width="25">
+                instargram
+                </a>
+            </li>
+            <li>
+                <a href="mailto:prayfah.pool@kmutt.ac.th" 
+                target="_blank"
+                id="link_contact">
+                <img src="picture/iconmail2.png" height="25" width="25">
+                email
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- javascrip -->
+    <script>
+        window.onscroll = function(){scrollFunction()};
+        function scrollFunction(){
+            if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0)
+            {
+                document.getElementsByClassName("landing").style.top = "0"
+            }
+            else
+            {
+                document.getElementsByClassName("landing").style.top = "-55px"
+            }
+        }
+    </script>
+</body>
+</html>
